@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "929919076088",
+    "firebase_url": "https://aharfoodorderapp-ada55.firebaseio.com",
+    "project_id": "aharfoodorderapp-ada55",
+    "storage_bucket": "aharfoodorderapp-ada55.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:929919076088:android:e618ec1853076762",
+        "android_client_info": {
+          "package_name": "com.example.ahar.aharfoodorderproviderapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "929919076088-d836odnusongin2u94iumoat5vbhh6hm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ahar.aharfoodorderproviderapp",
+            "certificate_hash": "b5b58eac8dec21a5082e7c756095f24f03841ede"
+          }
+        },
+        {
+          "client_id": "929919076088-m8tu8hsjcfb6rvoh87504ilnnpj8fd6n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyAs3gbIVXhIazasV8oulYz3CYIaoBEEY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "929919076088-m8tu8hsjcfb6rvoh87504ilnnpj8fd6n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:929919076088:android:1f43910b461ff14d",
+        "android_client_info": {
+          "package_name": "com.example.ahar.aharfoodorderclientapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "929919076088-8gpla56514g2fkulb23hg7trpnqvuht9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ahar.aharfoodorderclientapp",
+            "certificate_hash": "b5b58eac8dec21a5082e7c756095f24f03841ede"
+          }
+        },
+        {
+          "client_id": "929919076088-m8tu8hsjcfb6rvoh87504ilnnpj8fd6n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyAs3gbIVXhIazasV8oulYz3CYIaoBEEY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "929919076088-m8tu8hsjcfb6rvoh87504ilnnpj8fd6n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

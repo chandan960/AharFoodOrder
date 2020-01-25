@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="#66BB6A"
+    tools:context="com.example.ahar.aharfoodorderclientapp.SingleFoodActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/singleImageView"
+        android:layout_marginTop="5dp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/singleTitle"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="24dp"
+        android:layout_marginLeft="40dp"
+
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/singleImageView"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/singleDesc"
+        android:textColor="#757575"
+        android:textSize="24dp"
+        android:layout_marginLeft="40dp"
+
+        android:layout_marginTop="5dp"
+
+        android:layout_below="@+id/singleTitle"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:id="@+id/singlePriceTxt"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="40dp"
+
+
+        android:text="ট"
+        android:textColor="#1B5E20"
+        android:textSize="24dp"
+        android:textStyle="bold|italic"
+        android:layout_below="@+id/singleDesc"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/singlePrice"
+        android:layout_marginTop="5dp"
+
+        android:textColor="#1B5E20"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:layout_toRightOf="@+id/singlePriceTxt"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@+id/singleDesc"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/singleOrder"
+        android:text="Order item"
+        android:onClick="orderItemClicked"
+        android:textColor="#000000"
+        android:background="#B9F6CA"
+        android:textSize="24dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/singlePrice"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancel item"
+        android:onClick="cancelItemClicked"
+        android:textColor="#000000"
+        android:background="#B9F6CA"
+        android:textSize="24dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/singleOrder"
+        android:id="@+id/singleCancel"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text"
+        android:layout_marginTop="20dp"
+
+        android:text="Manual order please call"
+        android:textAlignment="center"
+        android:textColor="#1B5E20"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@+id/singleCancel"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="+8801709120378                      "
+        android:onClick="orderCall"
+        android:textColor="#000000"
+        android:background="#66BB6A"
+        android:textSize="24dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/text"
+        android:id="@+id/Call"
+        android:drawableLeft="@drawable/phone"
+        />
+
+</RelativeLayout>

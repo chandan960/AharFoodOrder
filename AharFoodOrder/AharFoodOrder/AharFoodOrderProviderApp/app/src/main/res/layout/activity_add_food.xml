@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    android:paddingBottom="16dp"
+    android:background="@color/background"
+    tools:context="com.example.ahar.aharfoodorderproviderapp.AddFoodActivity">
+
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:onClick="imageButtonClicked"
+        android:id="@+id/foodImageButton"
+        android:background="@color/btncolor"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/itemName"
+        android:textColor="@color/textcolor"
+        android:hint="Enter food item name"
+        android:inputType="text"
+        android:textSize="24dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/itemDesc"
+        android:hint="Enter item description"
+        android:inputType="text"
+        android:textColor="@color/textcolor"
+        android:textSize="24dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/itemPrice"
+        android:hint="Enter item price"
+        android:inputType="numberDecimal"
+        android:textColor="@color/textcolor"
+        android:textSize="24dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add item to menu"
+        android:onClick="addItemButtonClicked"
+        android:textColor="@color/textcolor"
+        android:background="@color/btncolor"
+        android:layout_marginTop="20dp"
+        android:textSize="24dp"
+
+        />
+
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="#66BB6A"
+    tools:context="com.example.ahar.aharfoodorderclientapp.LoginActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/userEmail"
+        android:hint="Enter email"
+        android:inputType="textEmailAddress"
+        android:drawableLeft="@drawable/email"
+        android:textColor="#000000"
+        android:textSize="24dp"
+
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/userPass"
+        android:hint="Enter password"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/password"
+        android:textColor="#000000"
+        android:textSize="24dp"
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:onClick="loginButtonClicked"
+        android:textColor="#000000"
+        android:background="#B9F6CA"
+        android:textSize="24dp"
+        android:layout_marginTop="20dp"
+        />
+
+
+</LinearLayout>

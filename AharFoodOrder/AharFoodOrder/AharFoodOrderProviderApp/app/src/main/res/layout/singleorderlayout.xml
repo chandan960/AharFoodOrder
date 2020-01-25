@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:layout_margin="10dp"
+    android:background="@color/background"
+    >
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:background="@color/cardcolor"
+        android:onClick="Delivery"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:background="@color/cardcolor"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/orderItemName"
+                android:textColor="@color/textcolor"
+                android:textSize="24dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/orderUserName"
+                android:layout_below="@+id/orderItemName"
+                android:textColor="@color/textcolor"
+                android:textSize="24dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/orderUserPhone"
+                android:layout_below="@+id/orderUserName"
+                android:textColor="@color/textcolor"
+                android:textSize="24dp"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/orderUserAddress"
+                android:layout_below="@+id/orderUserPhone"
+                android:textColor="@color/textcolor"
+                android:textSize="24dp"
+
+                />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>

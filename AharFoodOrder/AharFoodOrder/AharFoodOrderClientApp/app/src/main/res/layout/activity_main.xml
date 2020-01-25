@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    android:paddingBottom="16dp"
+    android:background="#66BB6A"
+    tools:context="com.example.ahar.aharfoodorderclientapp.MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#C8E6C9"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter name"
+        android:inputType="textPersonName"
+        android:id="@+id/editName"
+        android:drawableLeft="@drawable/name"
+        android:textColor="#000000"
+        android:textSize="24dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter phone number"
+        android:inputType="phone"
+        android:id="@+id/editPhone"
+        android:drawableLeft="@drawable/phone"
+        android:textColor="#000000"
+        android:textSize="24dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter email"
+        android:inputType="textEmailAddress"
+        android:id="@+id/editEmail"
+        android:drawableLeft="@drawable/email"
+        android:textColor="#000000"
+        android:textSize="24dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter password"
+        android:inputType="textPassword"
+        android:id="@+id/editPass"
+        android:drawableLeft="@drawable/password"
+        android:textColor="#000000"
+        android:textSize="24dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter address"
+        android:inputType="text"
+        android:id="@+id/editAddress"
+        android:drawableLeft="@drawable/home"
+        android:textColor="#000000"
+        android:textSize="24dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign up"
+        android:onClick="signupButtonClicked"
+        android:textColor="#000000"
+        android:background="#B9F6CA"
+        android:textSize="24dp"
+        android:layout_marginTop="20dp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Already have an account ?"
+        android:textColor="#ff0000"
+        android:layout_marginTop="30dp"
+        android:textSize="15dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign in"
+        android:onClick="signinButtonClicked"
+        android:textColor="#000000"
+        android:background="#B9F6CA"
+        android:textSize="24dp"
+        android:layout_marginTop="5dp"
+
+        />
+
+</LinearLayout>
